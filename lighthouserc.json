@@ -1,0 +1,23 @@
+{
+  "ci": {
+    "assert": {
+      "assertMatrix": [
+        {
+          "matchingUrlPattern": "^((?!404).)*$",
+          "preset": "lighthouse:recommended",
+          "assertions": {
+            "maskable-icon": "off",
+            "content-width": "off",
+            "non-composited-animations": "off",
+            "unused-javascript": "off",
+            "unminified-javascript": "off",
+            "link-name": "off",
+            "tap-targets": "off",
+            "csp-xss": "off",
+            "tabindex": "off"
+          }
+        }
+      ]
+    }
+  }
+}
