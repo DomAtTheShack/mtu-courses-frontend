@@ -65,11 +65,10 @@ const AboutPage = observer(() => (
               📅 integrated semester planning (with weekly / monthly schedule
               preview)
 						</ListItem>
-						<ListItem>📈 pass / fail / drop / class size stats(Not Working Right now)</ListItem>
+						<ListItem>📈 pass / fail / drop / class size stats(Not Working Right now?)</ListItem>
 						<ListItem>🧑‍🏫 integrated instructor ratings</ListItem>
-						<ListItem>↔️ searchable transfer courses (!)</ListItem>
+						<ListItem>↔️ searchable transfer courses (!WIP)</ListItem>
 					</UnorderedList>
-          sound?
 				</Text>
 
 				<Text>In other words:</Text>
@@ -178,7 +177,7 @@ const AboutPage = observer(() => (
 				<Text as='span'>
           If you have a GitHub account, feel free to{' '}
 					<WrappedLink
-						href='https://github.com/Michigan-Tech-Courses/frontend/issues'
+						href='https://github.com/DomAtTheShack/mtu-courses-frontend/issues'
 						display='inline-block'
 					>
             make an issue
@@ -197,7 +196,7 @@ const AboutPage = observer(() => (
 				<Text as='span'>
           We're completely{' '}
 					<WrappedLink
-						href='https://github.com/Michigan-Tech-Courses'
+						href='https://github.com/DomAtTheShack/mtu-courses-Backend'
 						display='inline-block'
 					>
             open-source
@@ -236,7 +235,7 @@ const AboutPage = observer(() => (
 
 				<Text as='span'>
 					<WrappedLink
-						href='https://api.michigantechcourses.com/docs/static/index.html'
+						href='https://test.domserver.xyz/docs'
 						display='inline-block'
 					>
             The API
