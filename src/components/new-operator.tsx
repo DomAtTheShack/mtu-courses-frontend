@@ -20,13 +20,13 @@ export const NewOperator = observer(() => {
 					<AlertDialogBody>
 						<p style={{marginBottom: '1rem'}}>
             With the shutdown of <WrappedLink href='http://www.MichiganTechCourses.com' display='inline-block'>Michigan Tech Courses</WrappedLink>
-							from the original owner I though it would be best to bring it up and host it myself.
+							from the original owner I thought it would be best to bring it up and host it myself.
 						</p>
 						<p style={{marginBottom: '1rem'}}>
-			With the reboot of the API, database, etc everything with the website should be working. Things to note: The pass fail drop stats are not up but soon to be up.
+			With the reboot of the website everything should be working. Things to note: The pass fail drop stats are not up yet, but they will be up soon.
 						</p>
 						<p>
-            Along with that the RateMyProfessor stats are not up yet too. Both should be out soon. Feel free to reach out with any questions at <WrappedLink href='mailto:dahann@mtu.edu' display='inline-block'>dahann@mtu.edu</WrappedLink>.
+            Along with that the RateMyProfessor stats are not up yet either. Both should be out soon. Feel free to reach out with any questions at <WrappedLink href='mailto:dahann@mtu.edu' display='inline-block'>dahann@mtu.edu</WrappedLink>.
 						</p>
 					</AlertDialogBody>
 
