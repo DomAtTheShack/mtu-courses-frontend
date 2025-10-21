@@ -90,9 +90,24 @@ const AboutPage = observer(() => (
 				</HStack>
 			</VStack>
 
+            <VStack align='flex-start'>
+                <Heading size='md' id='mobile'>
+                    ☕ Buy me a coffee!
+                </Heading>
+                <p>
+                    If you want to help me keep this site up and running, you can buy me a coffee so I can keep up the servers and hold onto the domain!{' '}
+                    <WrappedLink
+                        href='https://buymeacoffee.com/domattheshack'
+                        display='inline-block'
+                    >
+                       Any donations are greatly appreciated!
+                    </WrappedLink>
+                </p>
+            </VStack>
+
 			<VStack align='flex-start'>
 				<Heading size='md' id='mobile'>
-          📱 Mobile App(If you guys really want it ill bring it back)
+          📱 Mobile App(If you guys really want it I'll bring it back)
 				</Heading>
 				<p>
           Want to use this on your phone? Check out the 3rd Party Michigan Tech
@@ -235,7 +250,7 @@ const AboutPage = observer(() => (
 
 				<Text as='span'>
 					<WrappedLink
-						href='https://test.domserver.xyz/docs'
+						href='https://indy.domserver.xyz/docs'
 						display='inline-block'
 					>
             The API
