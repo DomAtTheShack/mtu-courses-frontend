@@ -25,8 +25,7 @@ export const NewOperator = observer(() => {
 						<p style={{marginBottom: '1rem'}}>
 			With the reboot of the website everything should be working. Things to note: The pass fail drop stats are not up yet, but they will be up soon.
 						</p>
-						<p>
-            Along with that the RateMyProfessor stats are not up yet either. Both should be out soon. Feel free to reach out with any questions at <WrappedLink href='mailto:dahann@mtu.edu' display='inline-block'>dahann@mtu.edu</WrappedLink>.
+						<p>Feel free to reach out with any questions at <WrappedLink href='mailto:dahann@mtu.edu' display='inline-block'>dahann@mtu.edu</WrappedLink>.
 						</p>
 					</AlertDialogBody>
 
