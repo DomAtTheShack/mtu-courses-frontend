@@ -24,7 +24,6 @@ export const filterCourse = (tokenPairs: Array<[string, string]>, course: ICours
 				if (!(course.subject.toLowerCase() === value.toLowerCase())) {
 					return false;
 				}
-
 				break;
 			}
 
@@ -86,7 +85,6 @@ export const filterSection = (
 		switch (qualifier) {
 			case 'id': {
 				result = section.id === value ? 'MATCHED' : 'REMOVE';
-
 				break;
 			}
 

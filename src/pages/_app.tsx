@@ -40,8 +40,7 @@ const MyApp = ({Component, pageProps}: AppProps & {Component: CustomNextPage<any
 				<meta name='viewport' content='width=device-width, initial-scale=1.0'/>
 
 				<link rel='dns-prefetch' href={process.env.NEXT_PUBLIC_THUMBOR_ENDPOINT}/>
-				<script async defer data-website-id='6d73d07c-c64e-41db-9db7-5688da4d5945' src='https://um.maxisom.me/script.js'/>
-
+				<script defer src="https://data.mtucourses.com/script.js" data-website-id="7da00f24-6aca-486c-9a41-da595249230e"></script>
 				<link rel='apple-touch-icon' sizes='180x180' href='/images/favicon/apple-touch-icon.png'/>
 				<link rel='icon' type='image/png' sizes='32x32' href='/images/favicon/favicon-32x32.png'/>
 				<link rel='icon' type='image/png' sizes='16x16' href='/images/favicon/favicon-16x16.png'/>
